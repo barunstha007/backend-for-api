@@ -1,0 +1,43 @@
+{
+  "name": "Furnituresshopping",
+  "version": "1.0.0",
+  "description": "Name: Barun Shrestha",
+  "main": "index.js",
+  "dependencies": {
+    "axios": "^0.19.0",
+    "body-parser": "^1.19.0",
+    "cookie-parser": "^1.4.4",
+    "cors": "^2.8.5",
+    "debug": "^4.1.1",
+    "expres": "^0.0.5",
+    "express": "^4.17.1",
+    "express-session": "^1.16.2",
+    "mongoose": "^5.6.2",
+    "morgan": "^1.9.1",
+    "multer": "^1.4.1",
+    "nodemon": "^1.19.1",
+    "passport": "^0.4.0",
+    "passport-local": "^1.0.0",
+    "passport-local-mongoose": "^5.0.1",
+    "session-file-store": "^1.3.0",
+    "z": "^1.0.9"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "nodemon ./bin/www",
+    "test": "jest --watchAll"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "author": "Barun",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/barunstha007/Backend-API"
+  },
+  "homepage": "https://github.com/barunstha007/Backend-API#readme",
+  "bin": {
+    "Furnituresshopping": "www.js"
+  }
+}
